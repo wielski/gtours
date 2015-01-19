@@ -1,0 +1,158 @@
+@media(max-width: 1200px){
+	.header {
+		height: 322px!important;
+	}
+	.cat-menu {
+		height: 102px!important;
+	}
+}
+
+@media(max-width: 501px){
+	.header {
+		height: 373px!important;
+	}
+	.cat-menu {
+		height: 153px!important;
+	}
+}
+
+.header {
+	height: 270px;
+	background: url('/img/header.jpg');
+	background-position: bottom center;
+	background-size: cover;
+}
+
+.logo {
+	width: 200px;
+	height: 80px;
+	background: url('/img/logo.png');
+	margin-top: 43px;
+	margin-bottom: 45px;
+}
+
+/* TOP MENU */
+
+.top-menu {
+	height: 51px;
+	width: 100%;
+	background: url('/img/menu.png');
+}
+
+.top-menu li {
+	display: inline-block;
+	list-style-type: none;
+	height: 51px;
+}
+
+
+.top-menu li a {
+	display: block;
+	color: #afafaf;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 19px;
+	height: 51px;
+}
+
+.top-menu li a:hover {
+	text-decoration: none;
+	background: url('/img/menu.png');
+}
+
+.top-menu .cart .number {
+	display: inline-block;
+	vertical-align: center;
+	background: #cece87;
+	width: 17px;
+	height: 17px;
+	padding-top: 2px;
+	padding-left: 5px;
+	margin-left: 5px;
+	border-radius: 100%;
+	color: #2F2F2F;
+}
+
+/* CATEGORY MENU */
+
+.cat-menu {
+	height: 51px;
+	width: 100%;
+	background: url('/img/menu.png');
+}
+
+.cat-menu li {
+	display: inline-block;
+	list-style-type: none;
+	height: 51px;
+}
+
+
+.cat-menu li a {
+	display: block;
+	color: #afafaf;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 19px;
+	height: 50px;
+}
+
+.cat-menu li.active {
+	color: #afafaf;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #ffffff;
+	font-weight: bold;
+	padding-right: 10px;
+	padding-top: 19px;
+	height: 50px;
+}
+
+.cat-menu li:first-child {
+	padding-left: 20px;
+}
+
+.cat-menu li a:hover {
+	text-decoration: none;
+	background: url('/img/menu.png');
+}
+
+
+/* Sidebar */
+
+.sidebar .block:first-child .title {
+	height: 50px;
+	width: 100%;
+	background: #99b16b;
+	color: #ffffff;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+.sidebar .block:first-child .title:after {
+	content: '';
+	width: 40px;
+	display: block;
+	margin-top: 2px;
+	height: 0;
+	border-bottom: 2px solid #fff;
+}
+
+.sidebar .block .content {
+	background: #f0f0f0;
+	padding: 10px;
+}
+
+.sidebar .block.unesco .content {
+	font-size: 12px;
+}
+.sidebar .block.unesco .content img {
+	display: block;
+	margin: 0 auto 10px;
+}

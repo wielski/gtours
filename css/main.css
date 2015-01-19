@@ -18,7 +18,7 @@
 
 .header {
 	height: 270px;
-	background: url('/img/header.jpg');
+	background: url('/gtours/img/header.jpg');
 	background-position: bottom center;
 	background-size: cover;
 }
@@ -26,7 +26,7 @@
 .logo {
 	width: 200px;
 	height: 80px;
-	background: url('/img/logo.png');
+	background: url('/gtours/img/logo.png');
 	margin-top: 43px;
 	margin-bottom: 45px;
 }
@@ -36,7 +36,7 @@
 .top-menu {
 	height: 51px;
 	width: 100%;
-	background: url('/img/menu.png');
+	background: url('/gtours/img/menu.png');
 }
 
 .top-menu li {
@@ -59,7 +59,7 @@
 
 .top-menu li a:hover {
 	text-decoration: none;
-	background: url('/img/menu.png');
+	background: url('/gtours/img/menu.png');
 }
 
 .top-menu .cart .number {
@@ -80,7 +80,7 @@
 .cat-menu {
 	height: 51px;
 	width: 100%;
-	background: url('/img/menu.png');
+	background: url('/gtours/img/menu.png');
 }
 
 .cat-menu li {
@@ -118,7 +118,7 @@
 
 .cat-menu li a:hover {
 	text-decoration: none;
-	background: url('/img/menu.png');
+	background: url('/gtours/img/menu.png');
 }
 
 
